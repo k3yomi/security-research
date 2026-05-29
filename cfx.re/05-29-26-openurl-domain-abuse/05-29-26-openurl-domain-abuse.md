@@ -88,6 +88,9 @@ The first `openUrl` opens a trusted article; the second silently downloads a mal
 | +52.80s | CNAME | content.cfx.re | e344217.d.akamaiedge.net |
 | +184.56s | A | api.ipify.org | (exfiltration) |
 
+
+Basically, the most typical infostealer. Nothing more to be said about it :3
+
 ## Resolution
 
 The Cfx.re engineering team patched this oversight by strengthening the domain trust validation. While it's not the most perfect patch as I believ in Zero Trust, it effectively mitigates the immediate risk by blocking known abuse patterns while allowing legitimate use cases to continue functioning.
