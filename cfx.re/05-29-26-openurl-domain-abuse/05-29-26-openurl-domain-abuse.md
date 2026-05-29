@@ -103,12 +103,12 @@ if (host == "forum.cfx.re" && parsed->pathname().find("/uploads/") == 0)
 
 ## References
 
-![alt text](image.png)
+![alt text](./assets/image.png)
 
 - [GitHub - NUICallbacks_Native.cpp](https://github.com/citizenfx/fivem/blob/cc6032bec3569c48097f708419f0690ace0bbe14/code/components/nui-core/src/NUICallbacks_Native.cpp)
 - [GitHub - NUICallbacks_Native.cpp Patch](https://github.com/citizenfx/fivem/commit/bbca6820faac89b3a03627cde30ed3a271ec7b75)
 - [VirusTotal Analysis](https://www.virustotal.com/gui/file/cecb0170c188799ae1090f08b82447d90a2c52395fa6c9833cb945a7bdb7adc1)
-- [Behavior Report](./behavior.json) | [PCAP](./example.pcap)
+- [Behavior Report](./assets/behavior.json) | [PCAP](./assets/example.pcap)
 
 
 [Back to Top](#citizenfx-openurl-trusted-domain-abuse)
