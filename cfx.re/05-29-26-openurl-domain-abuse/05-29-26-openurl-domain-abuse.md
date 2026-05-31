@@ -5,7 +5,7 @@
 
 ## Overview
 
-Threat actors exploited the trusted urls in the **OpenURL** native by leveraging XSS vulnerabilities and trusted domain behavior. By hosting malicious payloads on domains like **cfx.re**, attackers reduced user suspicion and increased execution rates through social engineering, resulting in confirmed system compromises.
+Threat actors exploited the trusted urls in the **OpenURL** native by leveraging XSS vulnerabilities and trusted domain behavior. By hosting malicious payloads on domains like **cfx.re**, threat actors reduced user suspicion and increased execution rates through social engineering, resulting in confirmed system compromises.
 
 ![References](./assets/prompt-example.png)
 
@@ -42,7 +42,7 @@ static bool IsUrlTrusted(const std::string& url)
 
 ## Discovery
 
-The issue emerged through real world attacks and an infostealer campaign targeting multiple Cfx.re ecosystem servers. Attackers used:
+The issue emerged through real world attacks and an infostealer campaign targeting multiple Cfx.re ecosystem servers. Threat actors used:
 - Backdoors
 - HTML/JavaScript injection (XSS)
 - Social engineering
@@ -51,7 +51,7 @@ The attack succeeded because users received no warnings when downloading from wh
 
 ## Attack Effectiveness
 
-Attackers exploited XSS-vulnerable resources to inject payloads, often redirecting to legitimate Cfx.re support articles to appear credible.
+Threat actors exploited XSS vulnerable resources to inject payloads, often redirecting to legitimate Cfx.re support articles to appear credible.
 
 ```lua
 TriggerServerEvent('example:event', 
@@ -69,8 +69,9 @@ The first `openUrl` opens a trusted article; the second silently downloads a mal
 | **Filename** | FiveM.exe (1.03 MB) |
 | **Type** | PE32+ executable (GUI) x86-64 |
 | **SHA-256** | `cecb0170c188799ae1090f08b82447d90a2c52395fa6c9833cb945a7bdb7adc1` |
-| **Packed** | No (XOR string encryption) |
+| **Packed** | No |
 | **Signed by** | XRYUS TECHNOLOGIES LIMITED |
+| **Family** | StrelaStealer |
 
 **Key Characteristics:**
 - HTTP request to `api.ipify.org` for IP exfiltration
